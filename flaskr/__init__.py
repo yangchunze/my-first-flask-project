@@ -1,9 +1,10 @@
 import os
 
 from flask import Flask
-from . import db
+
 from . import auth
 from . import blog
+from . import db
 
 
 def create_app(test_config=None):
